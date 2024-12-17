@@ -47,4 +47,3 @@ class Database:
             cursor = conn.cursor()
             cursor.execute(query, params)
             return cursor.fetchall()
-
